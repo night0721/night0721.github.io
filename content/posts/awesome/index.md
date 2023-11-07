@@ -196,7 +196,7 @@ Theme:
 *   Pro
 *   Retrowave
 
-For settings, go [here](https://github.com/night0721/night0721.github.io/blob/master/assets/terminal-settings.json)
+For settings, go [here](https://github.com/night0721/night0721.github.io/blob/master/static/terminal-settings.json)
 
 ### Linux
 
