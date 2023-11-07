@@ -6,5 +6,6 @@
     {{ if and ( .Lastmod ) ( ne .Lastmod .PublishDate) }}
     <time class="single-date" datetime="{{ .Lastmod }}" title="{{ .Lastmod }}">Last updated {{ .Lastmod.UTC.Format "January" }} {{ .Lastmod.UTC.Format "2" | humanize }}, {{ .Lastmod.UTC.Format "2006" }}.</time>
     {{ end }}
+    <a class="post-reading-time">{{ printf "Estimated reading time: %d minutes" .ReadingTime }}</a>
 </div>
 <hr/>
