@@ -1,0 +1,74 @@
+{
+  "links": {
+    "title": "Blog",
+    "class": "linux-blogs",
+    "links": [
+      {
+        "title": "Eric Murphy",
+        "link": "https://ericmurphy.xyz/",
+        "rss": "https://ericmurphy.xyz/index.xml"
+      },
+      {
+        "title": "bikobatanari",
+        "link": "https://www.bikobatanari.art/"
+      },
+      {
+        "title": "Cheapskate's Guide",
+        "link": "https://cheapskatesguide.org/"
+      },
+      {
+        "title": "CozyNet",
+        "link": "https://www.cozynet.org/",
+        "rss": "https://www.cozynet.org/feed/feed.xml"
+      },
+      {
+        "title": "Drew DeVault",
+        "link": "https://drewdevault.com",
+        "rss": "https://drewdevault.com/blog/index.xml"
+      },
+      {
+        "title": "Jared White",
+        "link": "https://jaredwhite.com/",
+        "rss": "https://jaredwhite.com/feed.xml"
+      },
+      {
+        "title": "Luke Smith",
+        "link": "https://lukesmith.xyz/",
+        "rss": "https://lukesmith.xyz/index.xml"
+      },
+      {
+        "title": "Manuel Moreale",
+        "link": "https://manuelmoreale.com/",
+        "rss": "https://manuelmoreale.com/feed/rss"
+      }
+    ]
+  },
+  "webdev": {
+    "title": "Linux and FOSS News",
+    "class": "linux-news",
+    "links": [
+      {
+        "title": "Go Make Things",
+        "link": "https://gomakethings.com",
+        "rss": "https://gomakethings.com/feed/index.xml"
+      },
+      {
+        "title": "The Spicy Web",
+        "link": "https://www.spicyweb.dev/",
+        "rss": "https://www.spicyweb.dev/feed.xml"
+      }
+    ]
+  },
+  "youtube": {
+    "title": "Learn",
+    "class": "learn",
+    "description": "I purposefully don’t watch much YouTube anymore, because I find it very hard to responsibly use the website without being affected by the algorithm. The few channels I still subscribe to, I do so via RSS.",
+    "links": [
+      {
+        "title": "Natural Hypertrophy",
+        "link": "https://www.youtube.com/channel/UCG-3rEW4IrDNa7-9iGByc2A",
+        "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCG-3rEW4IrDNa7-9iGByc2A"
+      }
+    ]
+  }
+}

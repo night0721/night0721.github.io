@@ -1,0 +1,10 @@
+{{ $image := (.Resources.ByType "image").GetMatch "images/*featured*" }}
+
+<div class="content-inner full-width header">
+    <h1 class="single-title">{{ .Title }}</h1>
+    <p class="single-description">{{ .Description | markdownify }}</p>
+    {{ if and ( .Lastmod ) ( ne .Lastmod .PublishDate) }}
+    <time class="single-date" datetime="{{ .Lastmod }}" title="{{ .Lastmod }}">Last updated {{ .Lastmod.UTC.Format "January" }} {{ .Lastmod.UTC.Format "2" | humanize }}, {{ .Lastmod.UTC.Format "2006" }}.</time>
+    {{ end }}
+</div>
+<hr/>

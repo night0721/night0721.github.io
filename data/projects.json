@@ -1,0 +1,42 @@
+[
+    {
+        "name":"NYX",
+        "description":"The first CODM statistics, builds and gunsmith bot for Discord users, partnered with YouTubers for accurate data",
+        "url":"https://github.com/night0721/cath.exe"
+    },
+    {
+        "name":"NYX API",
+        "description":"General purpose API using Next.js API Routes to serve purposes of NYX, cath npm package and discord rich presence data",
+        "url":"https://api.night0721.me"
+    },
+    {
+        "name":"cath",
+        "description":"npm pacakge to scrape data from NYX API, providing useful functions and Discord Bot utilities with more than 8000 downloads",
+        "url":"https://github.com/night0721/cath"
+    },
+    {
+        "name":"NXC File Host",
+        "description":"Next.js website to act as ShareX server, allow you to shorten URLs, upload image, paste codes, with a simple and easy to use UI",
+        "url":"https://github.com/night0721/nxc-host"
+    },
+    {
+        "name":"Auth Bot",
+        "description":"Discord Bot to verify user, giving server owner the ability to pull back members in case of deletetion or forgot login",
+        "url":"https://github.com/night0721/Auth"
+    },
+    {
+        "name":"YouTube Downloader",
+        "description":"Simple Next.js website and interface to download YouTube videos to mp3 or mp4 files with URLs",
+        "url":"https://github.com/night0721/youtube-downloader"
+    },
+    {
+        "name":"Lilase",
+        "description":"Minecraft Quality of Life mod for auction sniping and fliping, with more than 2500 downloads",
+        "url":"https://github.com/night0721/Lilase"
+    },
+    {
+        "name":"NullValkyrie",
+        "description":"Minecraft 1.19 multipurpose plugin for spigot servers with a lot of features where most modern servers have",
+        "url":"https://github.com/night0721/NullValkyrie"
+    }
+]

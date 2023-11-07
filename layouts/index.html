@@ -1,0 +1,49 @@
+{{ partial "header.html" . }}
+</main>
+<div class="bio flex-column">
+    <h1>{{ .Title }}</h1>
+    <p>{{ .Description | markdownify }}</p>
+    {{ partial "logos.html" . }}
+</div>
+<div class="terminal flex-column">
+    <pre class="info">NG Linux 6.6-rc1 (tty1)</pre>
+    <pre class="info"># Supports Syntax Highlighting</pre>
+    <pre class="info"># Type 'help' for all commands</pre>
+    <pre class="info"> </pre>
+    <div class="prompts">
+        <label class="hostname" for="prompt">[ ng@2d1 ~]$</label>
+        <span> </span>
+        <input class="prompt" name="prompt" id="prompt" type="text" maxlength="20" oninput="linting()"></input>
+    </div>
+</div>
+<hr />
+<div class="flex-column" id="projects">
+    <h1>Projects</h1>
+    <div class="projects">
+        {{ range .Site.Data.projects }}
+            <div class="project">
+                <h2 class="project-title">{{ .name }}</h2>
+                <p class="project-description">{{ .description }}</p>
+                <button onclick="window.open('{{ .url }}', '_blank')" class="project-button">Visit</button>
+            </div>
+        {{ end }}
+    </div>
+</div>
+<hr />
+<div class="posts-container">
+    <h1 class="posts-title">Latest posts</h1>
+    <div class="posts">
+        {{ range ( where .Site.RegularPages "Type" "posts" | first 5 ) }}
+        <div class="post">
+            <h4 class="post-heading">
+                <a href="{{ .RelPermalink }}" class="post-title">{{ .Title }}</a>
+            </h4>
+            <a class="post-time">{{ .Date.Format "January 2, 2006" }}</a>
+        </div>
+        {{ end }}
+    </div>
+</div>
+<hr />
+<main>
+{{ partial "footer.html" . }}
+
