@@ -1,74 +1,263 @@
 {
-  "links": {
-    "title": "Blog",
-    "class": "linux-blogs",
-    "links": [
-      {
-        "title": "Eric Murphy",
-        "link": "https://ericmurphy.xyz/",
-        "rss": "https://ericmurphy.xyz/index.xml"
-      },
-      {
-        "title": "bikobatanari",
-        "link": "https://www.bikobatanari.art/"
-      },
-      {
-        "title": "Cheapskate's Guide",
-        "link": "https://cheapskatesguide.org/"
-      },
-      {
-        "title": "CozyNet",
-        "link": "https://www.cozynet.org/",
-        "rss": "https://www.cozynet.org/feed/feed.xml"
-      },
-      {
-        "title": "Drew DeVault",
-        "link": "https://drewdevault.com",
-        "rss": "https://drewdevault.com/blog/index.xml"
-      },
-      {
-        "title": "Jared White",
-        "link": "https://jaredwhite.com/",
-        "rss": "https://jaredwhite.com/feed.xml"
-      },
-      {
-        "title": "Luke Smith",
-        "link": "https://lukesmith.xyz/",
-        "rss": "https://lukesmith.xyz/index.xml"
-      },
-      {
-        "title": "Manuel Moreale",
-        "link": "https://manuelmoreale.com/",
-        "rss": "https://manuelmoreale.com/feed/rss"
-      }
-    ]
+    "links": {
+        "title": "Blog",
+        "class": "linux-blogs",
+        "links": [
+            {
+                "title": "Luke Smith",
+                "link": "https://lukesmith.xyz/",
+                "description": "Linux, Opwn Source Software, Philosophy",
+                "rss": "https://lukesmith.xyz/index.xml"
+            },
+            {
+                "title": "Eric Murphy",
+                "link": "https://ericmurphy.xyz/",
+                "description": "State of web, Linux",
+                "rss": "https://ericmurphy.xyz/index.xml"
+            },
+            {
+                "title": "Derek Sivers",
+                "link": "https://sive.rs/ti",
+                "description": "Tech Indepedence"
+            },
+            {
+                "title": "Cheapsakte's Guide",
+                "link": "https://cheapskatesguide.org/",
+                "description": "Computer Guide",
+                "rss": "https://cheapskatesguide.org/cheapskates-guide-rss-feed.xml"
+            },
+            {
+                "title": "Omar Abid",
+                "link": "https://omarabid.com/",
+                "description": "State of web"
+            },
+            {
+                "title": "Hayden White",
+                "link": "https://whitevhs.xyz/",
+                "description": "State of web, Linux, Open Source Software",
+                "rss": "https://whitevhs.xyz/articles/atom.xml"
+            },
+            {
+                "title": "Tookmund",
+                "link": "https://tookmund.com/",
+                "description": "Linux",
+                "rss": "https://tookmund.com/feed.xml"
+            },
+            {
+                "title": "bt",
+                "link": "https://bt.ht/",
+                "description": "Web Development, Linux",
+                "rss": "https://bt.ht/atom.xml"
+            },
+            {
+                "title": "Drew DeVault",
+                "link": "https://drewdevault.com",
+                "description": "Linux",
+                "rss": "https://drewdevault.com/blog/index.xml"
+            },
+            {
+                "title": "sheikh",
+                "link": "https://www.unixsheikh.com/",
+                "description": "Open Source, Linux, Programming",
+                "rss": "https://www.unixsheikh.com/feed.rss"
+            },
+            {
+                "title": "Open Source Musings",
+                "link": "https://opensourcemusings.com/",
+                "description": "Linux, Open Source Software",
+                "rss": "https://opensourcemusings.com/feed/"
+            },
+            {
+                "title": "Samsai",
+                "link": "https://samsai.eu/",
+                "description": "Linux"
+            },
+            {
+                "title": "Pid Eins",
+                "link": "https://0pointer.net/blog",
+                "description": "Linux",
+                "rss": "https://0pointer.net/blog/index.rss20"
+            },
+            {
+                "title": "Chris Siebenmann",
+                "link": "https://utcc.utoronto.ca/~cks/space/blog/",
+                "description": "Software"
+            },
+            {
+                "title": "Anirudh Oppuliappan",
+                "link": "https://icyphox.sh/about",
+                "description": "Developer Blog",
+                "rss": "https://icyphox.sh/blog/feed.xml"
+            },
+            {
+                "title": "sizeof(cat)",
+                "link": "https://sizeof.cat/",
+                "description": "Linux, Opwn Source Software",
+                "rss": "https://sizeof.cat/index.xml"
+            },
+            {
+                "title": "Matthew",
+                "link": "http://meta.ath0.com/",
+                "description": "Software, Fediverse"
+            },
+            {
+                "title": "Kevin Cox",
+                "link": "https://kevincox.ca/",
+                "description": "Programming"
+            },
+            {
+                "title": "Jared White",
+                "link": "https://jaredwhite.com/",
+                "description": "State of web",
+                "rss": "https://jaredwhite.com/feed.xml"
+            },
+            {
+                "title": "c0ffee",
+                "link": "https://www.c0ffee.net/",
+                "description": "Hosting your own server",
+                "rss": "https://www.c0ffee.net/rss/"
+            },
+            {
+                "title": "bikobatanari",
+                "link": "https://www.bikobatanari.art/",
+                "description": "Social Media",
+                "rss": "https://www.bikobatanari.art/rss/writings.xml"
+            },
+            {
+                "title": "Max Bock",
+                "link": "https://mxb.dev/",
+                "description": "Web Development",
+                "rss": "https://mxb.dev/feed.xml"
+            },
+            {
+                "title": "Tiny Projects",
+                "link": "https://tinyprojects.dev/",
+                "description": "Web Development",
+                "rss": "https://tinyprojects.dev/feed.xml"
+            },
+            {
+                "title": "The Spicy Web",
+                "link": "https://www.spicyweb.dev/",
+                "description": "Web Development",
+                "rss": "https://www.spicyweb.dev/feed.xml"
+            },
+            {
+                "title": "Go Make Things",
+                "link": "https://gomakethings.com",
+                "description": "Web Development",
+                "rss": "https://gomakethings.com/feed/index.xml"
+            },
+            {
+                "title": "Jim Nielsen",
+                "link": "https://blog.jim-nielsen.com/",
+                "description": "Web Development",
+                "rss": "https://blog.jim-nielsen.com/feed.xml"
+            },
+            {
+                "title": "Tomas Pustelnik",
+                "link": "https://pustelto.com/blog/",
+                "description": "Web Development",
+                "rss": "https://pustelto.com/feed.xml"
+            },
+            {
+                "title": "Oils",
+                "link": "https://www.oilshell.org/blog/",
+                "description": "UNIX Shell"
+            },
+            {
+                "title": "Peter Gasper",
+                "link": "https://www.malgregator.com/",
+                "description": "Cryptography, Information Securtity"
+            },
+            {
+                "title": "rolisz",
+                "link": "https://rolisz.ro/",
+                "description": "Machine Learning"
+            }
+        ]
   },
   "webdev": {
-    "title": "Linux and FOSS News",
-    "class": "linux-news",
-    "links": [
-      {
-        "title": "Go Make Things",
-        "link": "https://gomakethings.com",
-        "rss": "https://gomakethings.com/feed/index.xml"
-      },
-      {
-        "title": "The Spicy Web",
-        "link": "https://www.spicyweb.dev/",
-        "rss": "https://www.spicyweb.dev/feed.xml"
-      }
-    ]
+      "title": "Linux and FOSS News",
+      "class": "linux-news",
+      "links": [
+          {
+              "title": "LWN",
+              "link": "https://lwn.net/"
+          },
+          {
+              "title": "Phoronix",
+              "link": "https://www.phoronix.com/"
+          },
+          {
+              "title": "FOSS Post",
+              "link": "https://fosspost.org/"
+          },
+          {
+              "title": "It's FOSS",
+              "link": "https://itsfoss.com/"
+          },
+          {
+              "title": "Linuxiac",
+              "link": "https://linuxiac.com/"
+          }
+      ]
   },
   "youtube": {
-    "title": "Learn",
-    "class": "learn",
-    "description": "I purposefully don’t watch much YouTube anymore, because I find it very hard to responsibly use the website without being affected by the algorithm. The few channels I still subscribe to, I do so via RSS.",
-    "links": [
-      {
-        "title": "Natural Hypertrophy",
-        "link": "https://www.youtube.com/channel/UCG-3rEW4IrDNa7-9iGByc2A",
-        "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCG-3rEW4IrDNa7-9iGByc2A"
-      }
-    ]
+      "title": "Learn",
+      "class": "learn",
+      "links": [
+          {
+              "title": "Linux from Scratch",
+              "link": "https://www.linuxfromscratch.org/"
+          },
+          {
+              "title": "Linux Documentation",
+              "link": "https://linux.die.net/"
+          },
+          {
+              "title": "t3x Programming Books",
+              "link": "https://t3x.org/"
+          },
+          {
+              "title": "GNU C Reference Manual",
+              "link": "https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html"
+          },
+          {
+              "title": "C++ Reference",
+              "link": "https://en.cppreference.com/w/"
+          },
+          {
+              "title": "GNU Bash Reference Manual",
+              "link": "https://www.gnu.org/software/bash/manual/bash.html"
+          },
+          {
+              "title": "Rust Programming Language Book",
+              "link": "https://doc.rust-lang.org/stable/book/"
+          },
+          {
+              "title": "System Design By David Malan",
+              "link": "https://www.youtube.com/watch?v=-W9F__D3oY4"
+          },
+          {
+              "title": "CS50",
+              "link": "https://www.youtube.com/watch?v=8mAITcNt710"
+          },
+          {
+              "title": "100 Days of Code",
+              "link": "https://www.udemy.com/course/100-days-of-code/"
+          },
+          {
+              "title": "Algorithms by Princeton University [Part 1]",
+              "link": "https://www.coursera.org/learn/algorithms-part1"
+          },
+          {
+              "title": "Algorithms by Princeton University [Part 2]",
+              "link": "https://www.coursera.org/learn/algorithms-part2"
+          },
+          {
+              "title": "Meta's frontend certificate",
+              "link": "https://www.coursera.org/professional-certificates/meta-front-end-developer"
+          }
+      ]
   }
 }

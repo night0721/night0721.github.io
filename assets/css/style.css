@@ -22,7 +22,7 @@ body {
     background-color: var(--color-background);
 }
 
-a:visited {
+a:visited, a:link {
     color: var(--color-text);
 }
 

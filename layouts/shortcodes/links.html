@@ -11,7 +11,7 @@
   {{ range .links }}
   <li>
     <strong><a class="link-item" href="{{ .link }}">{{ .title }}</a></strong>
-    <a> - {{ .description }}</a>
+    {{ if .description }} <a> - {{ .description }}</a>{{ end }}
     {{ if .rss }} <a href="{{ .rss }}"><span class="icon-inline icon-rss">{{ $titledRss | safeHTML }}</span></a>{{ end }}
   </li>
   {{ end }}
