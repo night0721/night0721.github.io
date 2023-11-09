@@ -126,7 +126,7 @@ At VM Config, go to CDROM and import virtio drivers by selecting the ISO file.
 8. Add PCI Host Devices
 
 At VM Config, click "Add Hardware" and select PCI Host Device then choose both NVIDIA devices. Then run the VM, first you might encounter some permissions issue(I did), for that try edit `/etc/libvirt/qemu.conf`, add these lines
-```
+```sh
 user = "night"
 group = "libvirt-qemu"
 cgroup_device_acl = [
@@ -139,7 +139,7 @@ cgroup_device_acl = [
 If you face memory [issue](https://www.reddit.com/r/VFIO/comments/mrs4wg/libvirt_error_cannot_limit_locked_memory/
 ), edit `/etc/security/limits.conf` and add
 
-```
+```sh
 night hard memlock 28388608
 ```
 or try
@@ -182,13 +182,13 @@ Domain name is the VM name
 
 # References
 
-https://christitus.com/vm-setup-in-linux/
-https://christitus.com/windows-inside-linux/
-https://christitus.com/vm-setup-in-linux/
-https://christitus.com/setup-qemu-in-archlinux/
-https://github.com/tuh8888/libvirt_win10_vm
-https://github.com/BeanGreen247/ArchLinux-KDE-Plasma-setup-script/blob/main/vfio-readme.md
-https://askubuntu.com/questions/1406888/ubuntu-22-04-gpu-passthrough-qemu
-https://wiki.archlinux.org/title/PCI_passthrough_via_OVMF
-https://wiki.archlinux.org/title/QEMU/Guest_graphics_acceleration
-https://www.reddit.com/r/VFIO/comments/fxvt2d/help_with_seamless_gpu_passthrough_guest_gpu/
+https://christitus.com/vm-setup-in-linux/  
+https://christitus.com/windows-inside-linux/  
+https://christitus.com/vm-setup-in-linux/  
+https://christitus.com/setup-qemu-in-archlinux/  
+https://github.com/tuh8888/libvirt_win10_vm  
+https://github.com/BeanGreen247/ArchLinux-KDE-Plasma-setup-script/blob/main/vfio-readme.md  
+https://askubuntu.com/questions/1406888/ubuntu-22-04-gpu-passthrough-qemu  
+https://wiki.archlinux.org/title/PCI_passthrough_via_OVMF  
+https://wiki.archlinux.org/title/QEMU/Guest_graphics_acceleration  
+https://www.reddit.com/r/VFIO/comments/fxvt2d/help_with_seamless_gpu_passthrough_guest_gpu/  
