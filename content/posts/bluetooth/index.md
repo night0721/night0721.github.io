@@ -1,7 +1,6 @@
 ---
 title: "How to solve bluetooth issues in Arch Linux"
 date: 2023-11-09T22:30:00+00:00
-description: "How I solved my bluetooth issues by using pipewire"
 ---
 
 Recently I wanted to connect my earphones via bluetooth to my Arch Linux but I found out it just either could not connect or repeating connect and disconnect. Not many solutions from the internet solve my issue, though. But this one worked, so to share the solution to you guys. Note: It is for someone who has been using pulseaudio.

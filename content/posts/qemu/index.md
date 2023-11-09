@@ -19,7 +19,7 @@ If not, go to BIOS and enable it
 # Download the required packages
 yay -S qemu-full libvirt virt-manager virt-viewer bridge-utils
 # Add yourself into groups so to solve permission issues
-usermod -aG libvirt-qemu,libvirt,qemu [your username]
+usermod -aG libvirt,kvm,libvirt-qemu,input,disk,audio,video [your username]
 # Enable systemd service
 systemctl enable libvirtd.socket
 ```
