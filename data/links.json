@@ -176,7 +176,7 @@
             }
         ]
   },
-  "webdev": {
+  "news": {
       "title": "Linux and FOSS News",
       "class": "linux-news",
       "links": [
@@ -202,7 +202,7 @@
           }
       ]
   },
-  "youtube": {
+  "learn": {
       "title": "Learn",
       "class": "learn",
       "links": [
@@ -257,6 +257,20 @@
           {
               "title": "Meta's frontend certificate",
               "link": "https://www.coursera.org/professional-certificates/meta-front-end-developer"
+          }
+      ]
+  },
+  "useful": {
+      "title": "Useful websites",
+      "class": "useful",
+      "links": [
+          {
+              "title": "Google webfonts helper",
+              "link": "https://gwfh.mranftl.com/"
+          },
+          {
+              "title": "Landchad",
+              "link": "https://landchad.net/"
           }
       ]
   }
