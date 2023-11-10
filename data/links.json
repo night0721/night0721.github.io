@@ -1,5 +1,5 @@
 {
-    "links": {
+    "blog": {
         "title": "Blog",
         "class": "linux-blogs",
         "links": [
@@ -267,6 +267,10 @@
           {
               "title": "Google webfonts helper",
               "link": "https://gwfh.mranftl.com/"
+          },
+          {
+              "title": "System font stack",
+              "link": "https://systemfontstack.com/"
           },
           {
               "title": "Landchad",
