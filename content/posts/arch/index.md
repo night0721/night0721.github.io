@@ -8,7 +8,10 @@ Here I am sharing my Arch Linux system files, and also what code I will add imme
 ```sh
 # /etc/profile
 
-sudo rmmod pcspkr # Remove annoying beep sound in tty
+if lsmod | grep -wq "pcspkr"; then
+  sudo rmmod pcspkr # Remove annoying beep sound in tty
+fi
+
 if [[ $TTY == /dev/tty1 ]]; then
     Hyprland # For no display manager
 fi
