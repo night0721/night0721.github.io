@@ -67,6 +67,20 @@
             }
         ]
     },
+    "videos": {
+        "title": "Videos",
+        "class": "videos",
+        "links": [
+            {
+                "title": "ThePrimeagen: Neovim RC From Scratch",
+                "link": "https://www.youtube.com/watch?v=w7i4amO_zaE"
+            },
+            {
+                "title": "Fireship: Ultimate guide to web perfomance",
+                "link": "https://www.youtube.com/watch?v=0fONene3OIA"
+            }
+        ]
+    },
     "posts": {
         "title": "Posts",
         "class": "posts",
