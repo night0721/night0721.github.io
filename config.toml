@@ -11,30 +11,20 @@ title = "Oscar Fu"
         weight = 10
 
     [[menu.main]]
-        name = "Projects"
-        url = "/#projects"
-        weight = 20
-
-    [[menu.main]]
         name = "Posts"
         url = "/posts"
-        weight = 30
+        weight = 20
 
     [[menu.main]]
         name = "Contact"
         url = "/contact"
-        weight = 40
+        weight = 30
 
     [[menu.main]]
         name = "Links"
         url = "/links"
-        weight = 50
+        weight = 40
 
-    [[menu.main]]
-        name = "Donate"
-        url = "https://ko-fi.com/cathteam"
-        weight = 60
-    
     [[menu.social]]
         name = "Discord"
         pre = "discord"
@@ -62,7 +52,10 @@ title = "Oscar Fu"
 
 
 [markup]
-  [markup.goldmark.parser]
-    wrapStandAloneImageWithinParagraph = false
-  [markup.highlight]
-    style = 'catppuccin-macchiato'
+    [markup.goldmark.parser]
+        wrapStandAloneImageWithinParagraph = false
+    [markup.highlight]
+        style = 'catppuccin-macchiato'
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
