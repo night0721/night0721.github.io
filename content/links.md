@@ -4,4 +4,6 @@ description: "Here is some websites, blogs, news that I find interesting and use
 lastmod: "2023-11-07"
 ---
 
+{{<hrefbut onclick=window.open('/bookmarks') text="Bookmarks">}}
+
 {{<links>}}
