@@ -1,0 +1,5 @@
+{{ if .IsNamedParams }}
+{{ $click := .Get "onclick" }}
+<button class="general-button" onclick='{{ safeJS (printf $click)}};'>{{ .Get "text" }}</button>
+{{ else }}
+{{ end }}

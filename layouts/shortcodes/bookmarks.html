@@ -1,0 +1,13 @@
+<div class="links-containter">
+{{ range .Site.Data.bookmarks }}
+<div class="{{ .class }}">
+    <h2 class="classifiers">{{ .title }}</h2>
+</div>
+  <ul>
+  {{ range .links }}
+  <li>
+    <strong><a class="link-item" href="{{ .link }}">{{ .title }}</a></strong>
+  </li>
+  {{ end }}
+  </ul>
+{{ end }}

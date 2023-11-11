@@ -1,0 +1,95 @@
+{
+    "cheatsheets": {
+        "title": "Cheat sheets",
+        "class": "cheatsheets",
+        "links": [
+            {
+                "title": "Vim cheat sheet",
+                "link": "https://vim.rtorr.com/"
+            },
+            {
+                "title": "Tmux cheat sheet",
+                "link": "https://tmuxcheatsheet.com/"
+            },
+            {
+                "title": "Rust cheat sheet",
+                "link": "https://cheat.sh/rust/:list"
+            }
+        ]
+    },
+    "guides": {
+        "title": "Guides",
+        "class": "guides",
+        "links": [
+            {
+                "title": "Grub rescue",
+                "link": "https://christitus.com/grub-rescue/"
+            },
+            {
+                "title": "Recovering deleted Windows boot partition",
+                "link": "https://christitus.com/recovering-deleted-windows-boot-partition/"
+            },
+            {
+                "title": "Landchad",
+                "link": "https://landchad.net/"
+            },
+            {
+                "title": "Creating git bare repository",
+                "link": "https://www.ackama.com/what-we-think/the-best-way-to-store-your-dotfiles-a-bare-git-repository-explained/"
+            },
+            {
+                "title": "Using SSH config",
+                "link": "https://linuxize.com/post/using-the-ssh-config-file/"
+            },
+            {
+                "title": "Learn C# by building a simple RPG",
+                "link": "https://scottlilly.com/learn-c-by-building-a-simple-rpg-index/"
+            },
+            {
+                "title": "Go tutorial making lolcat",
+                "link": "https://flaviocopes.com/go-tutorial-lolcat/"
+            },
+            {
+                "title": "Write a shell in C",
+                "link": "https://danishpraka.sh/posts/write-a-shell/"
+            },
+            {
+                "title": "Crafting interpreters",
+                "link": "https://craftinginterpreters.com/"
+            },
+            {
+                "title": "Neural networks and deep learning",
+                "link": "http://neuralnetworksanddeeplearning.com/"
+            },
+            {
+                "title": "Flexbox",
+                "link": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/"
+            }
+        ]
+    },
+    "posts": {
+        "title": "Posts",
+        "class": "posts",
+        "links": [
+            {
+                "title": "Stop using Discord",
+                "link": "https://usemumble.neocities.org/"
+            }
+        ]
+    },
+    "tools": {
+        "title": "Tools",
+        "class": "tools",
+        "links": [
+            {
+                "title": "Google webfonts helper",
+                "link": "https://gwfh.mranftl.com/"
+            },
+            {
+                "title": "System font stack",
+                "link": "https://systemfontstack.com/"
+            }
+        ]
+    }
+}
+

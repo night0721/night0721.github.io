@@ -68,6 +68,11 @@
                 "rss": "https://opensourcemusings.com/feed/"
             },
             {
+                "title": "LinuxBabe",
+                "link": "https://www.linuxbabe.com/",
+                "description": "Linux"
+            },
+            {
                 "title": "Samsai",
                 "link": "https://samsai.eu/",
                 "description": "Linux"
@@ -257,24 +262,6 @@
           {
               "title": "Meta's frontend certificate",
               "link": "https://www.coursera.org/professional-certificates/meta-front-end-developer"
-          }
-      ]
-  },
-  "useful": {
-      "title": "Useful websites",
-      "class": "useful",
-      "links": [
-          {
-              "title": "Google webfonts helper",
-              "link": "https://gwfh.mranftl.com/"
-          },
-          {
-              "title": "System font stack",
-              "link": "https://systemfontstack.com/"
-          },
-          {
-              "title": "Landchad",
-              "link": "https://landchad.net/"
           }
       ]
   }
