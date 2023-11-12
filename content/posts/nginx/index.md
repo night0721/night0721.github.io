@@ -64,8 +64,9 @@ server {
 }
 ```
 
-```
+```conf
 # nginx.conf
+
 user http;
 worker_processes auto;
 worker_cpu_affinity auto;
