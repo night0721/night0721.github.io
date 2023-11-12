@@ -33,7 +33,7 @@ Mostly same as JPGs
 
 # Optimise batch of files at a time
 
-```
+```sh
 mogrify -sampling-factor 4:2:0 -strip -quality 75 -interlace JPEG -colorspace sRGB -resize 400 -path "opt" *.jpg # converting all jpgs and put all converted jpgs into opt folder
 ```
 

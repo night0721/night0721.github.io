@@ -4,20 +4,26 @@ date: 2023-11-11T01:30:00+00:00
 ---
 
 1. Point A and AAAA records to VPS ipv4 and ipv6
-Move public ssh key to .ssh/authorized_keys
-2. pacman-S nginx certbot-nginx
-Allow port 80, 443
-systemctl start nginx
-3. Create according files according to nginx configuration
-Create cert using certbot —nginx
-Generate .htpasswd using htpasswd command with sudo
-Edit nginx configuration
-Create two folders at /etc/nginx
-sites-available and sites-enabled
-
+2. Move public ssh key to .ssh/authorized_keys
+3. Download dependencies and open ports for nginx, also enable nginx
+```sh
+pacman-S nginx certbot-nginx
+sudo ufw allow 80
+sudo ufw allow 443
+sudo systemctl enable nginx --now
 ```
+4. Create according files according to nginx configuration below
+5. Create cert using `certbot —nginx`
+6. Generate .htpasswd using `htpasswd` command
+7. Create two folders at `/etc/nginx`, `sites-available` and `sites-enabled`
+
+`
+```conf
 #sites-available/tty
-#ln -sf sites-available/tty sites-enabled/tty
+
+# run this line to enable the site by linking available sites to enabled sites
+# ln -sf sites-available/tty sites-enabled/tty
+
 server {
     server_name ng.night0721.xyz ;
     location / {
@@ -30,10 +36,10 @@ server {
         root /etc/nginx/files         
         autoindex on;
         auth_basic "Restricted Access";
-        auth_basic_user_file /etc/nginx/.htpasswd;
+        auth_basic_user_file /etc/nginx/.htpasswd; # make sure you got the right path
     }
     
-    location /discord {
+    location /discord { # proxy
         proxy_pass https://discord.com/;
         proxy_set_header Host discord.com;
         proxy_set_header X-Real-IP $remote_addr;    
@@ -91,4 +97,4 @@ http {
 }
 ```
 
-Useful video for setting up nginx: https://youtu.be/ugWydr_QdIY?si=vgyS-l6yWsqlSHZC
+Useful video for setting up nginx by [BugsWriter](https://youtu.be/ugWydr_QdIY?si=vgyS-l6yWsqlSHZC)

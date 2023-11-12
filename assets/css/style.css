@@ -158,12 +158,11 @@ a:visited, a:link {
 
 /* Blog elements */
 
-:not(pre)>code {
-    font-family: var(--font-family);
-    font-size: 1rem;
-    color: var(--color-text);
-    font-weight: bold;
+code {
+    font-size: 0.8rem;
+    font-weight: 500;
     overflow-wrap: break-word;
+    overflow-x: scroll;
 }
 
 /* Additional elements */
