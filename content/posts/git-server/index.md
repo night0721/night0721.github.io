@@ -1,6 +1,6 @@
 ---
 title: "How to setup git server on a VPS"
-date: 2023-11-11T01:30:00+00:00
+date: 2023-11-18T01:30:00+00:00
 ---
 
 1. First login to your VPS as root user
