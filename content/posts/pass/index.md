@@ -1,6 +1,6 @@
 ---
 title: "How to setup password-store in Linux"
-date: 2023-11-11T01:30:00+00:00
+date: 2023-11-19T17:30:00+00:00
 ---
 
 First download zbar pass pass-otp gnupg

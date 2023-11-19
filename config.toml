@@ -26,9 +26,9 @@ title = "Oscar Fu"
         weight = 40
 
     [[menu.social]]
-        name = "Discord"
-        pre = "discord"
-        url = "https://discord.gg/SbQHChmGcp"
+        name = "Codeberg"
+        pre = "codeberg"
+        url = "https://codeberg.org/night0721"
         weight = 10
 
     [[menu.social]]
@@ -48,14 +48,3 @@ title = "Oscar Fu"
         pre = "rss"
         url = "/index.xml"
         weight = 40
-
-
-
-[markup]
-    [markup.goldmark.parser]
-        wrapStandAloneImageWithinParagraph = false
-    [markup.highlight]
-        style = 'catppuccin-macchiato'
-    [markup.goldmark]
-        [markup.goldmark.renderer]
-            unsafe = true
