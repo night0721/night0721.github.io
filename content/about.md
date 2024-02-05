@@ -1,6 +1,6 @@
 ---
 title: "About"
-description: "I am a college student, backend Developer from Hong Kong based in United Kingdom. I make Minecraft Mods and Plugins, a Discord bot for the CODM community, also various websites for people to use. I aim to create free, minimal and open source software for public use. Moreover, I am trying to make my own ecosystem of various software that all is tailor made by myself and without any unnecessary features. The softwares I had made includes, paste bin, image uploader, URL shortener, shell interpreter, and more to come. Currently I am studying A levels, doing Maths, Further Maths, Computer Science and Phyiscs."
+description: "I am a college student, backend Developer from Hong Kong based in United Kingdom. I make Minecraft Mods and Plugins, a Discord bot for the CODM community, also various websites for people to use. I aim to create free, minimal and open source software for public use. Moreover, I am trying to make my own ecosystem of various softwares that all is tailor made for myself but also others and without any unnecessary features. The softwares I had made includes, paste bin, image uploader, URL shortener, shell interpreter, and more to come. Currently I am studying A levels, doing Maths, Further Maths, Computer Science and Phyiscs."
 lastmod: "2024-02-05"
 ---
 
