@@ -16,13 +16,13 @@
     },
     {
         "name":"NXC File Host",
-        "description":"Next.js website to act as ShareX server, allow you to shorten URLs, upload image, paste codes, with a simple and easy to use UI",
+        "description":"ShareX server using Next.js API, to shorten URLs, upload image, paste codes, with a simple and easy to use UI",
         "url":"https://github.com/night0721/nxc-host"
     },
     {
         "name":"Auth Bot",
-        "description":"Discord Bot to verify user, giving server owner the ability to pull back members in case of deletetion or forgot login",
-        "url":"https://github.com/night0721/Auth"
+        "description":"Discord Bot to verify user, allowing server owner to recover server by pulling back members",
+        "url":"https://github.com/night0721/auth-bot"
     },
     {
         "name":"YouTube Downloader",
@@ -56,7 +56,7 @@
     },
     {
         "name": "vernam",
-        "description": "CLI implementation of Vernam cipher with perfect secrecy for communication",
+        "description": "CLI implementation of Vernam cipher in C with perfect secrecy for communication",
         "url": "https://github.com/night0721/vernam"
     }
 ]
