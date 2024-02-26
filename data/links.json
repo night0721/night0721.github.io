@@ -16,6 +16,21 @@
                 "rss": "https://ericmurphy.xyz/index.xml"
             },
             {
+                "title": "sewn",
+                "link": "https://sewn.codeberg.page/",
+                "description": "Linux",
+            },
+            {
+                "title": "wowaname",
+                "link": "https://wowana.me/",
+                "description": "Linux"
+            },
+            {
+                "title": "hovercats",
+                "link": "https://hovercats.github.io/",
+                "description": "Linux"
+            },
+            {
                 "title": "Derek Sivers",
                 "link": "https://sive.rs/ti",
                 "description": "Tech Indepedence"
@@ -62,12 +77,6 @@
                 "rss": "https://www.unixsheikh.com/feed.rss"
             },
             {
-                "title": "Open Source Musings",
-                "link": "https://opensourcemusings.com/",
-                "description": "Linux, Open Source Software",
-                "rss": "https://opensourcemusings.com/feed/"
-            },
-            {
                 "title": "LinuxBabe",
                 "link": "https://www.linuxbabe.com/",
                 "description": "Linux"
@@ -76,6 +85,11 @@
                 "title": "Samsai",
                 "link": "https://samsai.eu/",
                 "description": "Linux"
+            },
+            {
+                "title": "skovati",
+                "link": "https://skovati.dev/",
+                "description": "Linux, Open Source Software",
             },
             {
                 "title": "Pid Eins",
@@ -135,12 +149,6 @@
                 "rss": "https://mxb.dev/feed.xml"
             },
             {
-                "title": "Tiny Projects",
-                "link": "https://tinyprojects.dev/",
-                "description": "Web Development",
-                "rss": "https://tinyprojects.dev/feed.xml"
-            },
-            {
                 "title": "The Spicy Web",
                 "link": "https://www.spicyweb.dev/",
                 "description": "Web Development",
@@ -152,13 +160,7 @@
                 "description": "Web Development",
                 "rss": "https://gomakethings.com/feed/index.xml"
             },
-            {
-                "title": "Jim Nielsen",
-                "link": "https://blog.jim-nielsen.com/",
-                "description": "Web Development",
-                "rss": "https://blog.jim-nielsen.com/feed.xml"
-            },
-            {
+                        {
                 "title": "Tomas Pustelnik",
                 "link": "https://pustelto.com/blog/",
                 "description": "Web Development",
@@ -180,6 +182,130 @@
                 "description": "Machine Learning"
             }
         ]
+  },
+  "guides": {
+      "title": "Guides/Wiki",
+      "class": "guides-wiki",
+      "links": [
+          {
+              "title": "Arch Wiki",
+              "link": "https://wiki.archlinux.org/"
+          },
+          {
+              "title": "Gentoo Wiki",
+              "link": "https://wiki.gentoo.org/"
+          },
+          {
+              "title": "Stop Using Discord",
+              "link": "https://usemumble.neocities.org/"
+          },
+          {
+              "title": "Data Hoarding in the Modern Age: A Guide",
+              "link": "https://dhitma.neocities.org/"
+          },
+          {
+              "title": "No systemd",
+              "link": "https://nosystemd.org/"
+          },
+          {
+              "title": "suckless rocks",
+              "link": "https://suckless.org/rocks/"
+          },
+          {
+              "title": "firasuke/awesome",
+              "link": "https://github.com/firasuke/awesome"
+          },
+          {
+              "title": "suckless other projects",
+              "link": "https://suckless.org/other_projects/"
+          },
+          {
+              "title": "All software sucks",
+              "link": "https://harmful.cat-v.org/software/"
+          },
+          {
+              "title": "liteweb",
+              "link": "https://liteweb.neocities.org/"
+          },
+          {
+              "title": "InstallGentoo Wiki",
+              "link": "https://wiki.installgentoo.com/wiki/Main_Page"
+          },
+          {
+              "title": "Unix shell script tactics",
+              "link": "https://github.com/SixArm/unix-shell-script-tactics"
+          },
+          {
+              "title": "Serious Shell Programming",
+              "link": "https://freebsdfrau.gitbook.io/serious-shell-programming/"
+          }
+      ]
+  },
+  "services": {
+      "title": "Services",
+      "class": "services",
+      "links": [
+          {
+              "title": "sourcehut",
+              "link": "https://sr.ht/"
+          },
+          {
+              "title": "Codeberg",
+              "link": "https://codeberg.org/"
+          },
+          {
+              "title": "Github",
+              "link": "https://github.com/"
+          },
+          {
+              "title": "suckless",
+              "link": "https://suckless.org/"
+          }
+      ]
+  },
+  "other": {
+      "title": "Other articles",
+      "class": "other-articles",
+      "links": [
+          {
+              "title": "Wayland Isn't Going to Save The Linux Desktop",
+              "link": "https://dudemanguy.github.io/blog/posts/2022-06-10-wayland-xorg/wayland-xorg.html"
+          },
+          {
+              "title": "harmful",
+              "link": "https://harmful.neocities.org/"
+          }
+      ]
+  },
+  "softwares": {
+      "title": "Softwares",
+      "class": "softwares",
+      "links": [
+          {
+              "title": "nnn",
+              "link": "https://github.com/jarun/nnn"
+          },
+          {
+              "title": "fnf",
+              "link": "https://github.com/leo-arch/fnf"
+          },
+          {
+              "title": "dwl",
+              "link": "https://codeberg.org/dwl/dwl"
+          },
+          {
+              "title": "foot",
+              "link": "https://codeberg.org/dnkl/foot"
+          },
+          {
+              "title": "wbg",
+              "link": "https://codeberg.org/dnkl/wbg"
+          },
+          {
+              "title": "wmenu",
+              "link": "https://sr.ht/~adnano/wmenu/"
+          }
+      ]
   },
   "news": {
       "title": "Linux and FOSS News",
@@ -214,6 +340,10 @@
           {
               "title": "Linux from Scratch",
               "link": "https://www.linuxfromscratch.org/"
+          },
+          {
+              "title": "Practical UNIX Manuals: mdoc",
+              "link": "https://manpages.bsd.lv/mdoc.html"
           },
           {
               "title": "Linux Documentation",
