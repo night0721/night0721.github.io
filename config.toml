@@ -25,6 +25,11 @@ title = "Oscar Fu"
         url = "/links"
         weight = 40
 
+    [[menu.main]]
+        name = "Bookmarks"
+        url = "/bookmarks"
+        weight = 50
+
     [[menu.social]]
         name = "Codeberg"
         pre = "codeberg"
