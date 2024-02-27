@@ -198,6 +198,14 @@
                 "link": "https://codeberg.org/dwl/dwl"
             },
             {
+                "title": "dwlb",
+                "link": "https://github.com/kolunmi/dwlb"
+            },
+            {
+                "title": "someblocks",
+                "link": "https://sr.ht/~raphi/someblocks/"
+            },
+            {
                 "title": "foot",
                 "link": "https://codeberg.org/dnkl/foot"
             },
@@ -212,6 +220,22 @@
             {
                 "title": "aureate",
                 "link": "https://github.com/swindlesmccoop/aureate"
+            },
+            {
+                "title": "kat",
+                "link": "https://github.com/Theldus/kat"
+            },
+            {
+                "title": "scc",
+                "link": "https://github.com/boyter/scc"
+            },
+            {
+                "title": "wlr-randr",
+                "link": "https://sr.ht/~emersion/wlr-randr"
+            },
+            {
+                "title": "mako",
+                "link": "https://github.com/emersion/mako"
             }
         ]
     },
