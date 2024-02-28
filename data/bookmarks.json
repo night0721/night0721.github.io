@@ -236,6 +236,10 @@
             {
                 "title": "mako",
                 "link": "https://github.com/emersion/mako"
+            },
+            {
+                "title": "yash",
+                "link": "https://github.com/magicant/yash"
             }
         ]
     },
