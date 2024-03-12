@@ -1,6 +1,6 @@
 ---
 title: "Minimalism"
-date: 2024-21-50T21:50:00+00:00
+date: 2024-03-12T21:50:00+00:00
 ---
 
 Do you still remember the reason that made you switch from Windows to Linux? Privacy? Storage? OSS?
