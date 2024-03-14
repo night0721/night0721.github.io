@@ -1,6 +1,8 @@
 baseURL = "https://night0721.xyz/"
 title = "Oscar Fu"
 
+ignoreErrors = ["error-remote-getjson"]
+
 [permalinks]
     post = "/blog/:slug"
 
