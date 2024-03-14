@@ -1,7 +1,12 @@
 {{ $repo := .Get "repo" }}
-{{ $url := printf "https://api.github.com/repos/night0721/%s/contents/README.md" $repo }}
+{{ $rootReadmeURL := printf "https://api.github.com/repos/night0721/%s/contents/README.md" $repo }}
+{{ $githubDirReadmeURL := printf "https://api.github.com/repos/night0721/%s/contents/.github/README.md" $repo }}
 
-{{ $response := getJSON $url }}
+{{ $response := getJSON $rootReadmeURL }}
+
+{{ if not (isset $response "content") }}
+  {{ $response = getJSON $githubDirReadmeURL }}
+{{ end }}
 
 {{ with $response }}
   {{ if isset . "content" }}
@@ -16,3 +21,4 @@
 {{ else }}
   <p>Error fetching data from GitHub API.</p>
 {{ end }}
+
