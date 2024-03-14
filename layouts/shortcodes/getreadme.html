@@ -1,10 +1,10 @@
 {{ $repo := .Get "repo" }}
 {{ $rootReadmeURL := printf "https://api.github.com/repos/night0721/%s/contents/README.md" $repo }}
-{{ $githubDirReadmeURL := printf "https://api.github.com/repos/night0721/%s/contents/.github/README.md" $repo }}
 
 {{ $response := getJSON $rootReadmeURL }}
+{{ $githubDirReadmeURL := printf "https://api.github.com/repos/night0721/%s/contents/.github/README.md" $repo }}
 
-{{ if not (isset $response "content") }}
+{{ if and (not $response) (not (isset $response "content")) }}
   {{ $response = getJSON $githubDirReadmeURL }}
 {{ end }}
 
@@ -16,9 +16,8 @@
       {{ $markdown | safeHTML }}
     </div>
   {{ else }}
-    <p>Error fetching README from GitHub.</p>
+    <p>No README found for the repository.</p>
   {{ end }}
 {{ else }}
-  <p>Error fetching data from GitHub API.</p>
+  <p>Error fetching README from GitHub.</p>
 {{ end }}
-
