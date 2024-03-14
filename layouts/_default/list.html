@@ -4,6 +4,8 @@
 
 {{ .Content }}
 
-{{ partial "posts.html" . }}
+{{ if eq .Section "posts" }}
+  {{ partial "posts.html" . }}
+{{ end }}
 
 {{ partial "footer.html" . }}

@@ -16,21 +16,26 @@ ignoreErrors = ["error-remote-getjson"]
         name = "Posts"
         url = "/posts"
         weight = 20
+    
+    [[menu.main]]
+        name = "Repos"
+        url = "/repos"
+        weight = 30
 
     [[menu.main]]
         name = "Contact"
         url = "/contact"
-        weight = 30
+        weight = 40
 
     [[menu.main]]
         name = "Links"
         url = "/links"
-        weight = 40
+        weight = 50
 
     [[menu.main]]
         name = "Bookmarks"
         url = "/bookmarks"
-        weight = 50
+        weight = 60
 
     [[menu.social]]
         name = "Codeberg"
