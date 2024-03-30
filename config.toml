@@ -18,8 +18,8 @@ ignoreErrors = ["error-remote-getjson"]
         weight = 20
     
     [[menu.main]]
-        name = "Repos"
-        url = "/repos"
+        name = "Git"
+        url = "https://git.night0721.xyz"
         weight = 30
 
     [[menu.main]]
