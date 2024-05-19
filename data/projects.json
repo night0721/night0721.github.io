@@ -5,6 +5,46 @@
         "url":"https://github.com/night0721/cath.exe"
     },
     {
+        "name":"Lilase",
+        "description":"Minecraft Quality of Life mod for auction sniping and fliping, with more than 2500 downloads",
+        "url":"https://github.com/night0721/Lilase"
+    },
+    {
+        "name": "ccc",
+        "description": "Fast TUI file manager written in C, using ncurse",
+        "url": "https://github.com/night0721/ccc"
+    },
+    {
+        "name": "noted",
+        "description": "Minimalist note manager written in C with useful and user friendly features",
+        "url": "https://github.com/night0721/noted"
+    },
+    {
+        "name": "apm",
+        "description": "Minimalistic command line password manager and a rewrite of pass in C",
+        "url": "https://github.com/night0721/apm"
+    },
+    {
+        "name": "lcc",
+        "description": "Lines of Code Counter",
+        "url": "https://github.com/night0721/lcc"
+    },
+    {
+        "name": "rush",
+        "description": "Minimalist, customizable shell written in C with syntax highlighting like a normal shell",
+        "url": "https://github.com/night0721/rush"
+    },
+    {
+        "name":"Auth Bot",
+        "description":"Discord Bot to verify user, allowing server owner to recover server by pulling back members",
+        "url":"https://github.com/night0721/auth-bot"
+    },
+    {
+        "name":"NXC File Host",
+        "description":"ShareX server using Next.js API, to shorten URLs, upload image, paste codes, with a simple and easy to use UI",
+        "url":"https://github.com/night0721/nxc-host"
+    },
+    {
         "name":"NYX API",
         "description":"General purpose API using Next.js API Routes to serve purposes of NYX, cath npm package and discord rich presence data",
         "url":"https://api.night0721.me"
@@ -15,26 +55,11 @@
         "url":"https://github.com/night0721/cath"
     },
     {
-        "name":"NXC File Host",
-        "description":"ShareX server using Next.js API, to shorten URLs, upload image, paste codes, with a simple and easy to use UI",
-        "url":"https://github.com/night0721/nxc-host"
-    },
-    {
-        "name":"Auth Bot",
-        "description":"Discord Bot to verify user, allowing server owner to recover server by pulling back members",
-        "url":"https://github.com/night0721/auth-bot"
-    },
-    {
         "name":"YT Downloader",
         "description":"Simple Next.js website and interface to download YouTube videos to mp3 or mp4 files with URLs",
         "url":"https://github.com/night0721/youtube-downloader"
     },
-    {
-        "name":"Lilase",
-        "description":"Minecraft Quality of Life mod for auction sniping and fliping, with more than 2500 downloads",
-        "url":"https://github.com/night0721/Lilase"
-    },
-    {
+        {
         "name":"NullValkyrie",
         "description":"Minecraft 1.19 multipurpose plugin for spigot servers with a lot of features where most modern servers have",
         "url":"https://github.com/night0721/NullValkyrie"
@@ -43,20 +68,5 @@
         "name": "based",
         "description": "CLI tool for base conversion for A Level students written in C",
         "url": "https://github.com/night0721/based"
-    },
-    {
-        "name": "noted",
-        "description": "Minimalist note manager written in C with useful and user friendly features",
-        "url": "https://github.com/night0721/noted"
-    },
-    {
-        "name": "rush",
-        "description": "Minimalist, customizable shell written in C with syntax highlighting like a normal shell",
-        "url": "https://github.com/night0721/rush"
-    },
-    {
-        "name": "vernam",
-        "description": "CLI implementation of Vernam cipher in C with perfect secrecy for communication",
-        "url": "https://github.com/night0721/vernam"
     }
 ]
