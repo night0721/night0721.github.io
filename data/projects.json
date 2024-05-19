@@ -46,12 +46,12 @@
     },
     {
         "name":"NYX API",
-        "description":"General purpose API using Next.js API Routes to serve purposes of NYX, cath npm package and discord rich presence data",
+        "description":"API using Next.js API Routes to serve purposes of NYX, cath npm package and discord rich presence data",
         "url":"https://api.night0721.me"
     },
     {
         "name":"cath",
-        "description":"npm pacakge to scrape data from NYX API, providing useful functions and Discord Bot utilities with more than 8000 downloads",
+        "description":"npm pacakge to get data from NYX API, providing useful functions and Discord  utilities with more than 6000 downloads",
         "url":"https://github.com/night0721/cath"
     },
     {
