@@ -4,4 +4,4 @@ description: "Ways to find me"
 lastmod: "2023-11-07"
 ---
 
-- Email: [nightkalyyy@gmail.com](mailto:nightkalyyy@gmail.com) - [PGP key](https://keys.openpgp.org/vks/v1/by-fingerprint/2A6422B2794C30FD19AB96A38E829D3381CFEBBE)
+- Email: [night@night0721.xyz](mailto:night@night0721.xyz) - [PGP key](https://keys.openpgp.org/vks/v1/by-fingerprint/337CA1BED75D09D794A5BD41957D67B8DB7A119B)
