@@ -41,7 +41,7 @@ const newLine = async (e) => {
         const promptsClone = prompts.cloneNode(true);
         terminal.append(promptsClone);
         prompt.disabled = true;
-        const newPromptInput = promptsClone.childNodes[5];
+        const newPromptInput = promptsClone.childNodes[3];
         newPromptInput.value = "";
         newPromptInput.disabled = false;
         newPromptInput.focus();
