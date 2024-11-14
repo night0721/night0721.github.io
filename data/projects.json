@@ -11,28 +11,38 @@
     },
     {
         "name": "ccc",
-        "description": "Fast TUI file manager written in C, using ncurse",
+        "description": "Fast, small, hackable TUI file manager with no dependency",
         "url": "https://github.com/night0721/ccc"
+    },
+	{
+		"name": "vip",
+		"description": "Small, fast and featureful vim-insipired text editor with strictly no dependency",
+        "url": "https://github.com/night0721/vuo"
+	},
+	{
+        "name": "90s",
+        "description": "Minimalist, customizable shell written in C99 with syntax highlighting and no dependency",
+        "url": "https://github.com/night0721/90s"
+    },
+	{
+        "name": "apm",
+        "description": "Small pass(1) implementation",
+        "url": "https://github.com/night0721/apm"
+    },
+	{
+        "name": "lcc",
+        "description": "Lines of Code Counter",
+        "url": "https://github.com/night0721/lcc"
+    },
+	{
+        "name": "nsh",
+        "description": "cat(1) implementation to render files with syntax highlighting",
+        "url": "https://github.com/night0721/nsh"
     },
     {
         "name": "noted",
         "description": "Minimalist note manager written in C with useful and user friendly features",
         "url": "https://github.com/night0721/noted"
-    },
-    {
-        "name": "apm",
-        "description": "Minimalistic command line password manager and a rewrite of pass in C",
-        "url": "https://github.com/night0721/apm"
-    },
-    {
-        "name": "lcc",
-        "description": "Lines of Code Counter",
-        "url": "https://github.com/night0721/lcc"
-    },
-    {
-        "name": "rush",
-        "description": "Minimalist, customizable shell written in C with syntax highlighting like a normal shell",
-        "url": "https://github.com/night0721/rush"
     },
     {
         "name":"Auth Bot",

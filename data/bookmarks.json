@@ -156,7 +156,15 @@
             {
                 "title": "firasuke/awesome",
                 "link": "https://github.com/firasuke/awesome"
-            }
+            },
+			{
+				"title": "2f30",
+				"link": "https://git.2f30.org/"
+			},
+			{
+				"title": "codeberg",
+				"link": "https://codeberg.org/explore/repos?only_show_relevant=0&sort=recentupdate&q=&language=c"
+			}
         ]
     },
     "services": {
@@ -240,7 +248,23 @@
             {
                 "title": "yash",
                 "link": "https://github.com/magicant/yash"
-            }
+            },
+			{
+				"title": "pdpmake",
+				"link": "https://github.com/rmyorston/pdpmake"
+			},
+			{
+				"title": "luft",
+				"link": "https://codeberg.org/bogdan-the-great/luft"
+			},
+			{
+				"title": "eiwd",
+				"link": "https://github.com/illiliti/eiwd"
+			},
+			{
+				"title": "ssu",
+				"link": "https://github.com/illiliti/ssu"
+			}
         ]
     },
     "tools": {
