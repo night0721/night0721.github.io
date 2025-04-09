@@ -34,16 +34,41 @@
         "description": "Lines of Code Counter",
         "url": "https://github.com/night0721/lcc"
     },
-	{
-        "name": "nsh",
-        "description": "cat(1) implementation to render files with syntax highlighting",
-        "url": "https://github.com/night0721/nsh"
-    },
     {
-        "name": "noted",
-        "description": "Minimalist note manager written in C with useful and user friendly features",
-        "url": "https://github.com/night0721/noted"
+        "name": "log",
+        "description": "Minimalist command line note manager",
+        "url": "https://github.com/night0721/log"
     },
+	{
+		"name": "ssm",
+		"description": "Simple Schedule Manager",
+		"url": "https://github.com/night0721/ssm"
+	},
+	{
+		"name": "bit",
+		"description": "Blockchain Version Control System",
+		"url": "https://github.com/night0721/bit"
+	},
+	{
+		"name": "jay",
+		"description": "Single header JSON library in C99",
+		"url": "https://github.com/night0721/jay"
+	},
+	{
+		"name": "neo",
+		"description": "Neo fuzzy finder",
+		"url": "https://github.com/night0721/neo"
+	},
+	{
+		"name": "radish",
+		"description": "Radish Programming Language",
+		"url": "https://github.com/night0721/radish"
+	},
+	{
+		"name": "sfb",
+		"description": "Suckless File Bin",
+		"url": "https://github.com/night0721/sfb"
+	},
     {
         "name":"Auth Bot",
         "description":"Discord Bot to verify user, allowing server owner to recover server by pulling back members",
@@ -65,18 +90,8 @@
         "url":"https://github.com/night0721/cath"
     },
     {
-        "name":"YT Downloader",
-        "description":"Simple Next.js website and interface to download YouTube videos to mp3 or mp4 files with URLs",
-        "url":"https://github.com/night0721/youtube-downloader"
-    },
-        {
         "name":"NullValkyrie",
         "description":"Minecraft 1.19 multipurpose plugin for spigot servers with a lot of features where most modern servers have",
         "url":"https://github.com/night0721/NullValkyrie"
-    },
-    {
-        "name": "based",
-        "description": "CLI tool for base conversion for A Level students written in C",
-        "url": "https://github.com/night0721/based"
     }
 ]
