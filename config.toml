@@ -1,5 +1,6 @@
 baseURL = "https://night0721.xyz/"
 title = "Oscar Fu"
+publishDir = "dist"
 
 ignoreErrors = ["error-remote-getjson"]
 
