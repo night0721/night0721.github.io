@@ -1,0 +1,456 @@
+@import url(https://itspi3141.github.io/discord-fonts/font.css);
+
+* {
+    font-family: "gg sans";
+    transition: width .5s, height .5s;
+    -webkit-user-drag: none;
+}
+
+html {
+    scroll-behavior: smooth
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: "gg sans", sans-serif;
+    font-weight: 400; /* default */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("public/supernova.gif");
+    background-repeat: no-repeat;
+    /*filter: blur(5px);*/
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+}
+
+:root {
+    --gradient-color: #9e6bff, #9fc1ff;
+    --box-shadow-color: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar {
+    width: .3rem;
+    height: auto;
+    scrollbar-width: thin;
+    border-radius: 50%
+}
+
+.wrapper {
+    padding: 4px; /* border thickness */
+    border-radius: 12px;
+    background: linear-gradient(90deg, #a9c9ff, #ffbbec, #ffc3a0, #a9c9ff);
+    background-size: 300% 100%;
+    animation: gradient-slide 6s linear infinite;
+}
+
+.profile {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 600px;
+    max-height: calc(100vh - 100px);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .1);
+    border-radius: 8px;
+    z-index: 0;
+    overflow: hidden;
+}
+
+:hover.tooltip::after {
+    content: attr(aria-label);
+    width: max-content;
+    position: absolute;
+    top: unset;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    background-color: #111214;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 2;
+    font-size: .8em !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 150px
+}
+
+:hover.tooltip::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    border: 5px solid transparent;
+    border-top-color: #111214
+}
+
+a:hover.tooltip::after {
+    top: -23px;
+}
+
+.status:hover.tooltip::after {
+    bottom: 24px;
+}
+
+.status:hover.tooltip::before {
+    bottom: 15px;
+}
+
+.main-profile {
+    background: linear-gradient(720deg, #ad86f8, #fff);
+}
+
+.card {
+    margin-top: 80px;
+    border-radius: 5px;
+}
+
+.banner {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+}
+
+.avatar,
+.status {
+  position: absolute;
+  border-radius: 50%;
+}
+
+.status {
+  max-width: 34px;
+  max-height: 44px;
+  transform: translate(50%, 50%);
+  bottom: 14.64%;
+  right: 14.64%
+}
+
+.status-icon {
+  width: 20px;
+  height: 20px;
+  padding: 7px;
+  border-radius: 50%
+}
+
+.avatar {
+    align-items: center;
+    justify-content: center;
+    top: 120px;
+    left: 16px
+}
+
+.avatar-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    padding: 8px;
+    background: linear-gradient(720deg, #ad86f8, #fff);
+}
+
+.avatar-decoration {
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.name-box {
+    flex-direction: column;
+    margin: 20px 20px 0;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.username-row {
+    display: flex;
+    gap: 0.3em;
+    margin-top: 5px;
+}
+
+.tag-badge {
+    height: 12px;
+    width: 12px;
+}
+
+.tag {
+    display: inline-flex;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 2px 4px;
+    border-radius: 2px;
+    background: linear-gradient(-90deg, #a9c9ff, #ffbbec, #ffc3a0, #a9c9ff);
+    background-size: 300% 100%;
+    animation: gradient-slide 3s linear infinite;
+    box-shadow: 0 0 6px rgba(255, 94, 207, 0.6);
+    gap: 0.1rem;
+}
+
+.badges {
+    flex-direction: row;
+    width: fit-content;
+    height: 18px;
+}
+
+.badges img {
+    width: 18px;
+}
+
+.display-name {
+    padding: 7px 0;
+    font-size: 20px;
+    font-weight: bolder;
+    color: transparent;
+    background: linear-gradient(90deg, #9e6bff, #9fc1ff, #9e6eff, #9e6bff);
+    background-size: 300% 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: gradient-slide 3s linear infinite;
+}
+
+@keyframes gradient-slide {
+    0% {
+        background-position: 300% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Status */
+
+.custom-status {
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    padding: 5px 0 0 0;
+    gap: 0.3em;
+}
+
+.custom-status img {
+    width: 24px !important;
+    height: 24px !important;
+    object-fit: cover;
+    image-rendering: pixelated
+}
+
+.custom-status-text {
+    margin: 0;
+    padding: 0;
+    font-weight: 400
+}
+
+/* Content */
+
+.about-box {
+    font-size: 13px;
+    width: fit-content;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+    margin: 20px 0 0 20px;
+}
+
+.divider {
+    height: 0;
+    margin-top: 5px;
+    margin-bottom: 0;
+    background-color: transparent;
+}
+
+.about-me {
+    border-top: 1px solid var(--box-shadow-color);
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    scroll-snap-type: y mandatory;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    padding: 0 20px 20px;
+    height: 100%;
+    max-height: calc(100vh - 530px);
+}
+
+.title {
+    color: oklab(0.317335 0.00868272 -0.0430245);
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 16px;
+    margin-bottom: 8px
+}
+
+.description {
+    margin-bottom: 15px;
+    margin-top: 8px;
+    font-size: 12px;
+    overflow-wrap: break-word;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+.description a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.description a:visited {
+    text-decoration: none;
+    color: blue;
+}
+
+/* Roles */
+
+.pink {
+    background-color: #f8bbd0;
+}
+
+.roles {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1px 1px 15px;
+}
+
+.circle {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.role {
+    display: flex;
+    align-items: center;
+    margin: 0 4px 4px 0;
+    padding: 4px;
+    box-sizing: border-box;
+    height: 22px;
+    font-size: 12px;
+}
+
+.role span {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+/* Socials/Connections */
+
+.socials {
+    display: flex;
+    justify-content: space-between;
+}
+
+.platform {
+    width: 245px;
+    display: flex;
+    margin-bottom: 20px;
+    padding: 12px;
+    align-items: center;
+    text-decoration: none;
+}
+
+.platform-username {
+    color: black;
+    font-size: 13px;
+    margin-left: 10px;
+    margin-right: 80px;
+    flex-grow: 1;
+}
+
+.platform-icon {
+    width: 24px;
+    height: 24px
+}
+
+.connect {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    filter: invert(86%) sepia(5%) saturate(136%) hue-rotate(177deg) brightness(70%) contrast(70%);
+}
+
+.connect:hover {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg) brightness(0%) contrast(0%);
+}
+
+.platform, .role {
+    box-shadow: 0 0 0 1px var(--box-shadow-color);
+    border-radius: 4px;
+}
+
+@media (width <=640px) {
+    .profile::before {
+        background-image: url("public/supernova.gif");
+        margin: -2px;
+        filter: blur(2px);
+        background-color: rgba(0, 0, 0, .5);
+        background-blend-mode: darken
+    }
+
+    .profile {
+        width: 300px;
+    }
+
+    .profile .banner {
+        height: 100px
+    }
+
+    .badges {
+        top: 120px;
+        right: 16px;
+        left: unset;
+        flex-direction: row-reverse
+    }
+
+    .avatar {
+        top: 55px
+    }
+
+    .avatar-image {
+        width: 86px;
+        height: 86px
+    }
+
+    .avatar-decoration {
+        width: 130px;
+        height: 130px
+    }
+
+    .name-box {
+        width: 236px;
+        margin: 16px 16px 10px
+    }
+
+    .about-me {
+        padding: 0 16px 16px
+    }
+
+    .card {
+        margin: 70px 16px 16px
+    }
+
+    .socials {
+        display: block
+    }
+
+    .platform {
+        width: 196px
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0
+    }
+
+    100% {
+        opacity: 1
+    }
+}
