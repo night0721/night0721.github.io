@@ -1,7 +1,7 @@
 @import url(https://itspi3141.github.io/discord-fonts/font.css);
 
 * {
-	font-family: "gg sans";
+	font-family: "gg sans", sans-serif;
 	transition: width .5s, height .5s;
 	-webkit-user-drag: none;
 }
@@ -239,7 +239,7 @@ a:hover.tooltip::after {
 		background-position: 300% 50%;
 	}
 	100% {
-		background-position: 0% 50%;
+		background-position: 0 50%;
 	}
 }
 
@@ -436,7 +436,7 @@ a:hover.tooltip::after {
 	}
 
 	.supernova-layer {
-		top: 0px;
+		top: 0;
 	}
 	.badges {
 		top: 120px;
