@@ -1,7 +1,7 @@
 @import url(https://itspi3141.github.io/discord-fonts/font.css);
 
 * {
-	font-family: "gg sans";
+	font-family: "gg sans", sans-serif;
 	transition: width .5s, height .5s;
 	-webkit-user-drag: none;
 }
@@ -19,7 +19,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-image: url("public/supernova.gif");
+	background-image: url("public/background.png");
 	background-repeat: no-repeat;
 	/*filter: blur(5px);*/
 	background-blend-mode: darken;
@@ -239,7 +239,7 @@ a:hover.tooltip::after {
 		background-position: 300% 50%;
 	}
 	100% {
-		background-position: 0% 50%;
+		background-position: 0 50%;
 	}
 }
 
@@ -420,7 +420,6 @@ a:hover.tooltip::after {
 
 @media (width <= 640px) {
 	.profile::before {
-		background-image: url("public/supernova.gif");
 		margin: -2px;
 		filter: blur(2px);
 		background-color: rgba(0, 0, 0, .5);
@@ -436,7 +435,7 @@ a:hover.tooltip::after {
 	}
 
 	.supernova-layer {
-		top: 0px;
+		top: 0;
 	}
 	.badges {
 		top: 120px;
