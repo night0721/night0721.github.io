@@ -19,7 +19,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-image: url("public/supernova.gif");
+	background-image: url("public/background.png");
 	background-repeat: no-repeat;
 	/*filter: blur(5px);*/
 	background-blend-mode: darken;
@@ -420,7 +420,6 @@ a:hover.tooltip::after {
 
 @media (width <= 640px) {
 	.profile::before {
-		background-image: url("public/supernova.gif");
 		margin: -2px;
 		filter: blur(2px);
 		background-color: rgba(0, 0, 0, .5);
