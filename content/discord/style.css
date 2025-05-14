@@ -205,9 +205,10 @@ a:hover.tooltip::after {
 	font-weight: 600;
 	padding: 2px 4px;
 	border-radius: 2px;
-	background: linear-gradient(90deg, var(--holographic-color));
-	background-size: 300% 100%;
-	animation: gradient-slide 3s linear infinite;
+	background: linear-gradient(to right, var(--holographic-color));
+	background-size: 100px auto;
+	transition: opacity .1s ease-in-out;
+	animation: gradient-slide 1.5s linear infinite;
 	box-shadow: 0 0 6px rgba(255, 94, 207, 0.6);
 	gap: 0.1rem;
 }
@@ -227,19 +228,20 @@ a:hover.tooltip::after {
 	font-size: 20px;
 	font-weight: bolder;
 	color: transparent;
-	background: linear-gradient(90deg, var(--gradient-color));
-	background-size: 300% 100%;
+	background: linear-gradient(to right, var(--gradient-color));
 	background-clip: text;
 	-webkit-background-clip: text;
-	animation: gradient-slide 3s linear infinite;
+	background-size: 100px auto;
+	transition: opacity .1s ease-in-out;
+	animation: gradient-slide 1.5s linear infinite;
 }
 
 @keyframes gradient-slide {
 	0% {
-		background-position: 300% 50%;
+		background-position:0;
 	}
-	100% {
-		background-position: 0 50%;
+	to {
+		background-position:100px;
 	}
 }
 
@@ -335,11 +337,12 @@ a:hover.tooltip::after {
 
 .n-role, .c-role, .java-role, .typescript-role {
 	color: transparent;
-	background: linear-gradient(90deg, var(--holographic-color));
-	background-size: 300% 100%;
+	background: linear-gradient(to right, var(--holographic-color));
 	background-clip: text;
 	-webkit-background-clip: text;
-	animation: gradient-slide 3s linear infinite;
+	background-size: 100px auto;
+	transition: opacity .1s ease-in-out;
+	animation: gradient-slide 1.5s linear infinite;
 }
 
 .roles {
@@ -363,9 +366,10 @@ a:hover.tooltip::after {
 	box-sizing: border-box;
 	height: 22px;
 	font-size: 12px;
-    background: linear-gradient(90deg, var(--green-gradient));
-    background-size: 300% 100%;
-    animation: gradient-slide 3s linear infinite;
+    background: linear-gradient(to right, black, #bc9bfd, black);
+	background-size: 100px auto;
+	transition: opacity .1s ease-in-out;
+	animation: gradient-slide 1.5s linear infinite;
 }
 
 .role span {
