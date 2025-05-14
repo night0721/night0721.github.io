@@ -38,12 +38,11 @@ body {
 }
 
 .nameplate-avatar-decoration {
-	position: relative;
-	top: -60%;
-	left: 50%;
+	position: absolute;
+	top: -3px;
+	left: 5px;
 	width: 38px;
 	height: 38px;
-	transform: translate(-50%, -50%);
 }
 
 .dnd {
