@@ -1,0 +1,62 @@
+body {
+	background: #111;
+	font-family: sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.nameplate {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	width: 248px;
+	height: 40px;
+	padding: 6px 10px;
+	background: url('public/twilight.png');
+	background-size: cover;
+	gap: 12px;
+	border-radius: 8px;
+}
+
+.nameplate-avatar {
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	position: relative;
+	flex-shrink: 0;
+	padding-left: 8px;
+}
+
+.nameplate-avatar-image {
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	position: relative;
+	flex-shrink: 0;
+}
+
+.nameplate-avatar-decoration {
+	position: absolute;
+	top: -3px;
+	left: 5px;
+	width: 38px;
+	height: 38px;
+}
+
+.dnd {
+	position: absolute;
+	background: #000;
+	bottom: -2px;
+	right: -2px;
+	width: 12px;
+	height: 12px;
+	border: 2px solid #111;
+	border-radius: 50%;
+}
+
+.nameplate-display-name {
+	font-weight: 500;
+	font-size: 16px;
+}

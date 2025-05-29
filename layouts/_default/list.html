@@ -1,0 +1,11 @@
+{{ partial "header.html" . }}
+
+{{ partial "single-header.html" . }}
+
+{{ .Content }}
+
+{{ if eq .Section "posts" }}
+  {{ partial "posts.html" . }}
+{{ end }}
+
+{{ partial "footer.html" . }}

@@ -1,0 +1,285 @@
+{
+    "cheatsheets": {
+        "title": "Cheat sheets",
+        "class": "cheatsheets",
+        "links": [
+            {
+                "title": "Vim cheat sheet",
+                "link": "https://vim.rtorr.com/"
+            },
+            {
+                "title": "Tmux cheat sheet",
+                "link": "https://tmuxcheatsheet.com/"
+            },
+            {
+                "title": "Rust cheat sheet",
+                "link": "https://cheat.sh/rust/:list"
+            }
+        ]
+    },
+    "guides": {
+        "title": "Guides",
+        "class": "guides",
+        "links": [
+            {
+                "title": "Grub rescue",
+                "link": "https://christitus.com/grub-rescue/"
+            },
+            {
+                "title": "Recovering deleted Windows boot partition",
+                "link": "https://christitus.com/recovering-deleted-windows-boot-partition/"
+            },
+            {
+                "title": "Landchad",
+                "link": "https://landchad.net/"
+            },
+            {
+                "title": "Creating git bare repository",
+                "link": "https://www.ackama.com/what-we-think/the-best-way-to-store-your-dotfiles-a-bare-git-repository-explained/"
+            },
+            {
+                "title": "Using SSH config",
+                "link": "https://linuxize.com/post/using-the-ssh-config-file/"
+            },
+            {
+                "title": "Learn C# by building a simple RPG",
+                "link": "https://scottlilly.com/learn-c-by-building-a-simple-rpg-index/"
+            },
+            {
+                "title": "Go tutorial making lolcat",
+                "link": "https://flaviocopes.com/go-tutorial-lolcat/"
+            },
+            {
+                "title": "Write a shell in C",
+                "link": "https://danishpraka.sh/posts/write-a-shell/"
+            },
+            {
+                "title": "Crafting interpreters",
+                "link": "https://craftinginterpreters.com/"
+            },
+            {
+                "title": "Neural networks and deep learning",
+                "link": "http://neuralnetworksanddeeplearning.com/"
+            },
+            {
+                "title": "Flexbox",
+                "link": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/"
+            }
+        ]
+    },
+    "videos": {
+        "title": "Videos",
+        "class": "videos",
+        "links": [
+            {
+                "title": "ThePrimeagen: Neovim RC From Scratch",
+                "link": "https://www.youtube.com/watch?v=w7i4amO_zaE"
+            },
+            {
+                "title": "Fireship: Ultimate guide to web perfomance",
+                "link": "https://www.youtube.com/watch?v=0fONene3OIA"
+            }
+        ]
+    },
+    "posts": {
+        "title": "Posts",
+        "class": "posts",
+        "links": [
+            {
+                "title": "Stop using Discord",
+                "link": "https://usemumble.neocities.org/"
+            },
+            {
+                "title": "Data Hoarding in the Modern Age: A Guide",
+                "link": "https://dhitma.neocities.org/"
+            },
+            {
+                "title": "Wayland Isn't Going to Save The Linux Desktop",
+                "link": "https://dudemanguy.github.io/blog/posts/2022-06-10-wayland-xorg/wayland-xorg.html"
+            },
+            {
+                "title": "harmful",
+                "link": "https://harmful.neocities.org/"
+            },
+            {
+                "title": "No systemd",
+                "link": "https://nosystemd.org/"
+            },
+            {
+                "title": "liteweb",
+                "link": "https://liteweb.neocities.org/"
+            },
+            {
+                "title": "Unix shell script tactics",
+                "link": "https://github.com/SixArm/unix-shell-script-tactics"
+            },
+            {
+                "title": "Serious Shell Programming",
+                "link": "https://freebsdfrau.gitbook.io/serious-shell-programming/"
+            }
+        ]
+    },
+    "wikis": {
+        "title": "Wikis",
+        "class": "wikis",
+        "links": [
+            {
+                "title": "Arch Wiki",
+                "link": "https://wiki.archlinux.org/"
+            },
+            {
+                "title": "Gentoo Wiki",
+                "link": "https://wiki.gentoo.org/"
+            },
+            {
+                "title": "InstallGentoo Wiki",
+                "link": "https://wiki.installgentoo.com/wiki/Main_Page"
+            }
+        ]
+    },
+    "softwarelists": {
+        "title": "Software Lists",
+        "class": "software-lists",
+        "links": [
+            {
+                "title": "suckless other projects",
+                "link": "https://suckless.org/other_projects/"
+            },
+            {
+                "title": "All software sucks",
+                "link": "https://harmful.cat-v.org/software/"
+            },
+            {
+                "title": "suckless rocks",
+                "link": "https://suckless.org/rocks/"
+            },
+            {
+                "title": "firasuke/awesome",
+                "link": "https://github.com/firasuke/awesome"
+            },
+			{
+				"title": "2f30",
+				"link": "https://git.2f30.org/"
+			},
+			{
+				"title": "codeberg",
+				"link": "https://codeberg.org/explore/repos?only_show_relevant=0&sort=recentupdate&q=&language=c"
+			}
+        ]
+    },
+    "services": {
+      "title": "Services",
+      "class": "services",
+      "links": [
+          {
+              "title": "sourcehut",
+              "link": "https://sr.ht/"
+          },
+          {
+              "title": "Codeberg",
+              "link": "https://codeberg.org/"
+          },
+          {
+              "title": "Github",
+              "link": "https://github.com/"
+          },
+          {
+              "title": "suckless",
+              "link": "https://suckless.org/"
+          }
+      ]
+    },
+    "softwares": {
+        "title": "Softwares",
+        "class": "softwares",
+        "links": [
+            {
+                "title": "nnn",
+                "link": "https://github.com/jarun/nnn"
+            },
+            {
+                "title": "fnf",
+                "link": "https://github.com/leo-arch/fnf"
+            },
+            {
+                "title": "dwl",
+                "link": "https://codeberg.org/dwl/dwl"
+            },
+            {
+                "title": "dwlb",
+                "link": "https://github.com/kolunmi/dwlb"
+            },
+            {
+                "title": "someblocks",
+                "link": "https://sr.ht/~raphi/someblocks/"
+            },
+            {
+                "title": "foot",
+                "link": "https://codeberg.org/dnkl/foot"
+            },
+            {
+                "title": "wbg",
+                "link": "https://codeberg.org/dnkl/wbg"
+            },
+            {
+                "title": "wmenu",
+                "link": "https://sr.ht/~adnano/wmenu/"
+            },
+            {
+                "title": "aureate",
+                "link": "https://github.com/swindlesmccoop/aureate"
+            },
+            {
+                "title": "kat",
+                "link": "https://github.com/Theldus/kat"
+            },
+            {
+                "title": "scc",
+                "link": "https://github.com/boyter/scc"
+            },
+            {
+                "title": "wlr-randr",
+                "link": "https://sr.ht/~emersion/wlr-randr"
+            },
+            {
+                "title": "mako",
+                "link": "https://github.com/emersion/mako"
+            },
+            {
+                "title": "yash",
+                "link": "https://github.com/magicant/yash"
+            },
+			{
+				"title": "pdpmake",
+				"link": "https://github.com/rmyorston/pdpmake"
+			},
+			{
+				"title": "luft",
+				"link": "https://codeberg.org/bogdan-the-great/luft"
+			},
+			{
+				"title": "eiwd",
+				"link": "https://github.com/illiliti/eiwd"
+			},
+			{
+				"title": "ssu",
+				"link": "https://github.com/illiliti/ssu"
+			}
+        ]
+    },
+    "tools": {
+        "title": "Tools",
+        "class": "tools",
+        "links": [
+            {
+                "title": "Google webfonts helper",
+                "link": "https://gwfh.mranftl.com/"
+            },
+            {
+                "title": "System font stack",
+                "link": "https://systemfontstack.com/"
+            }
+        ]
+    }
+}
+

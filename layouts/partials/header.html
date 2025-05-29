@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+    <link rel="icon" href="/icon.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.9" />
+    <meta name="theme-color" content="#deb4d1" data-react-helmet="true" />
+    <meta name="description" content="Backend Developer from Hong Kong" />
+    <meta itemProp="name" content="night0721" />
+    <meta itemProp="description" content="Backend Developer from Hong Kong" />
+    <meta itemProp="image" content="https://night0721.xyz/icon.jpg" />
+    <meta property="og:url" content="https://night0721.xyz/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="night0721" />
+    <meta property="og:site_name" content="Night" />
+    <meta property="og:description" content="Backend Developer from Hong Kong" />
+    <meta property="og:image" content="https://night0721.xyz/icon.jpg" />
+    <meta content="video.other" property="og:type" />
+    <meta content="image/gif" property="og:image:type" />
+    <link type="application/json+oembed" href="https://night0721.xyz/oembed.json" />
+    <script src="/script.js" defer></script>
+	<title>{{ if not .IsHome }}{{ .Title }} | {{ end }}{{ .Site.Title }}</title>
+    {{ $style := resources.Get "/css/style.css" | fingerprint }}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}" type="text/css" media="all" />
+	{{ with .OutputFormats.Get "rss" -}}
+		{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+	{{ end -}}
+</head>
+
+<body>
+
+{{ partial "nav.html" . }}
+<main class="content">

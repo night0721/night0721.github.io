@@ -1,0 +1,5 @@
+<div class="logos">
+    {{ range.Site.Menus.social -}}
+        <a href="{{ .URL }}" target="_blank" rel="noopener noreferrer" class="logo-button">{{ partial "icon.html" (dict "icon" .Pre "title" .Name ) }}</a>
+    {{- end }}
+</div>

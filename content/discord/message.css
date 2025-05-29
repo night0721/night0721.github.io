@@ -1,0 +1,92 @@
+body {
+	background: #111;
+	font-family: sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.message {
+	display: flex;
+	align-items: flex-start;
+	gap: 12px;
+	padding: 8px 12px;
+	background: url('public/twilight.png');
+	background-size: cover;
+	border-radius: 8px;
+	max-width: 600px;
+	font-family: sans-serif;
+	color: #fff;
+}
+
+.message-avatar {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	position: relative;
+	flex-shrink: 0;
+	padding-left: 8px;
+}
+
+.message-avatar-image {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	position: relative;
+	flex-shrink: 0;
+}
+
+.message-avatar-decoration {
+	position: absolute;
+	top: -5px;
+	left: 4px;
+	width: 48px;
+	height: 48px;
+}
+
+.dnd {
+	position: absolute;
+	background: #000;
+	bottom: -2px;
+	right: -2px;
+	width: 12px;
+	height: 12px;
+	border: 2px solid #111;
+	border-radius: 50%;
+}
+
+.message-display-name {
+	font-weight: 500;
+	font-size: 16px;
+	padding: 0;
+}
+
+.message-body {
+	gap: 0.2rem;
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+
+.message-header {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	margin-bottom: 2px;
+}
+
+.message-text {
+	font-size: 1rem;
+	text-shadow: 0 0 5px #9e6bff, 0 0 10px #9e6bff, 0 0 20px #9e6bff, 0 0 40px #9e6bff, 0 0 80px #9e6bff;
+	animation: glow 1.5s infinite alternate;
+}
+
+@keyframes glow {
+	0% {
+		text-shadow: 0 0 5px #9e6bff, 0 0 10px #9e6bff, 0 0 20px #9e6bff, 0 0 40px #9e6bff, 0 0 80px #9e6bff;
+	}
+	100% {
+		text-shadow: 0 0 10px #9fc1ff, 0 0 20px #9fc1ff, 0 0 40px #9fc1ff, 0 0 80px #9fc1ff, 0 0 160px #9fc1ff;
+	}
+}

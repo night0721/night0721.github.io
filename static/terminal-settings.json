@@ -1,0 +1,209 @@
+{
+  "$help": "https://aka.ms/terminal-documentation",
+  "$schema": "https://aka.ms/terminal-profiles-schema",
+  "actions": [
+    {
+      "command": {
+        "action": "copy",
+        "singleLine": false
+      },
+      "keys": "ctrl+c"
+    },
+    {
+      "command": "paste",
+      "keys": "ctrl+v"
+    },
+    {
+      "command": "find",
+      "keys": "ctrl+shift+f"
+    },
+    {
+      "command": "unbound",
+      "keys": "ctrl+shift+w"
+    },
+    {
+      "command": {
+        "action": "splitPane",
+        "split": "auto",
+        "splitMode": "duplicate"
+      },
+      "keys": "alt+shift+d"
+    },
+    {
+      "command": "closePane",
+      "keys": "ctrl+w"
+    }
+  ],
+  "copyFormatting": "none",
+  "copyOnSelect": false,
+  "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+  "newTabMenu": [
+    {
+      "type": "remainingProfiles"
+    }
+  ],
+  "profiles": {
+    "defaults": {
+      "backgroundImage": "C:\\.nky\\Photo\\Profile Pic\\night.png",
+      "backgroundImageOpacity": 0.25,
+      "backgroundImageStretchMode": "uniform",
+      "colorScheme": "Pro",
+      "cursorShape": "underscore",
+      "elevate": true,
+      "font": {
+        "face": "JetBrainsMono Nerd Font",
+        "size": 11.0,
+        "weight": "semi-light"
+      },
+      "opacity": 100,
+      "startingDirectory": "%NKY%"
+    },
+    "list": [
+      {
+        "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe -NoLogo",
+        "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+        "hidden": false,
+        "name": "Windows PowerShell"
+      },
+      {
+        "commandline": "%SystemRoot%\\System32\\cmd.exe",
+        "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+        "hidden": false,
+        "name": "Command Prompt"
+      },
+      {
+        "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+        "hidden": false,
+        "name": "Azure Cloud Shell",
+        "source": "Windows.Terminal.Azure"
+      },
+      {
+        "guid": "{58ad8b0c-3ef8-5f4d-bc6f-13e4c00f2530}",
+        "hidden": false,
+        "name": "Debian",
+        "source": "Windows.Terminal.Wsl"
+      },
+      {
+        "guid": "{a07bcee4-3181-5bf0-80e1-bac70a9a530d}",
+        "hidden": false,
+        "name": "Developer Command Prompt for VS 2022",
+        "source": "Windows.Terminal.VisualStudio"
+      },
+      {
+        "guid": "{27f8dc29-3a61-5978-8d32-a9b29cb00483}",
+        "hidden": false,
+        "name": "Developer PowerShell for VS 2022",
+        "source": "Windows.Terminal.VisualStudio"
+      }
+    ]
+  },
+  "schemes": [
+    {
+      "background": "#0E1729",
+      "black": "#0A1222",
+      "blue": "#8DABE1",
+      "brightBlack": "#575656",
+      "brightBlue": "#8DABE1",
+      "brightCyan": "#FFA7C4",
+      "brightGreen": "#85CC95",
+      "brightPurple": "#C792EB",
+      "brightRed": "#FFA7C4",
+      "brightWhite": "#FFFFFF",
+      "brightYellow": "#FFCB8B",
+      "cursorColor": "#FFA7C4",
+      "cyan": "#78CCF0",
+      "foreground": "#CED2D6",
+      "green": "#85CC95",
+      "name": "Overnight Slumber",
+      "purple": "#C792EB",
+      "red": "#FFA7C4",
+      "selectionBackground": "#1F2B41",
+      "white": "#FFFFFF",
+      "yellow": "#FFCB8B"
+    },
+    {
+      "background": "#000000",
+      "black": "#000000",
+      "blue": "#2009DB",
+      "brightBlack": "#666666",
+      "brightBlue": "#0000FF",
+      "brightCyan": "#00E5E5",
+      "brightGreen": "#00D900",
+      "brightPurple": "#E500E5",
+      "brightRed": "#E50000",
+      "brightWhite": "#E5E5E5",
+      "brightYellow": "#E5E500",
+      "cursorColor": "#4D4D4D",
+      "cyan": "#00A6B2",
+      "foreground": "#F2F2F2",
+      "green": "#00A600",
+      "name": "Pro",
+      "purple": "#B200B2",
+      "red": "#990000",
+      "selectionBackground": "#414141",
+      "white": "#BFBFBF",
+      "yellow": "#999900"
+    },
+    {
+      "background": "#070825",
+      "black": "#181A1F",
+      "blue": "#46BDFF",
+      "brightBlack": "#FF16B0",
+      "brightBlue": "#46BDFF",
+      "brightCyan": "#FF901F",
+      "brightGreen": "#FCEE54",
+      "brightPurple": "#FF92DF",
+      "brightRed": "#F85353",
+      "brightWhite": "#FFFFFF",
+      "brightYellow": "#FFFFFF",
+      "cursorColor": "#FFFFFF",
+      "cyan": "#DF81FC",
+      "foreground": "#46BDFF",
+      "green": "#929292",
+      "name": "Retrowave",
+      "purple": "#FF92DF",
+      "red": "#FF16B0",
+      "selectionBackground": "#FFFFFF",
+      "white": "#FFFFFF",
+      "yellow": "#FCEE54"
+    }
+  ],
+  "themes": [
+    {
+      "name": "legacyDark",
+      "tab": {
+        "background": null,
+        "showCloseButton": "always",
+        "unfocusedBackground": null
+      },
+      "window": {
+        "applicationTheme": "dark",
+        "useMica": false
+      }
+    },
+    {
+      "name": "legacyLight",
+      "tab": {
+        "background": null,
+        "showCloseButton": "always",
+        "unfocusedBackground": null
+      },
+      "window": {
+        "applicationTheme": "light",
+        "useMica": false
+      }
+    },
+    {
+      "name": "legacySystem",
+      "tab": {
+        "background": null,
+        "showCloseButton": "always",
+        "unfocusedBackground": null
+      },
+      "window": {
+        "applicationTheme": "system",
+        "useMica": false
+      }
+    }
+  ]
+}

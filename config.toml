@@ -1,0 +1,63 @@
+baseURL = "https://night0721.xyz/"
+title = "Oscar Fu"
+publishDir = "dist"
+
+ignoreErrors = ["error-remote-getjson"]
+
+[permalinks]
+    post = "/blog/:slug"
+
+[menu]
+    [[menu.main]]
+        name = "About"
+        url = "/about"
+        weight = 10
+
+    [[menu.main]]
+        name = "Posts"
+        url = "/posts"
+        weight = 20
+    
+    [[menu.main]]
+        name = "Git"
+        url = "https://git.night0721.xyz"
+        weight = 30
+
+    [[menu.main]]
+        name = "Contact"
+        url = "/contact"
+        weight = 40
+
+    [[menu.main]]
+        name = "Links"
+        url = "/links"
+        weight = 50
+
+    [[menu.main]]
+        name = "Bookmarks"
+        url = "/bookmarks"
+        weight = 60
+
+    [[menu.social]]
+        name = "Codeberg"
+        pre = "codeberg"
+        url = "https://codeberg.org/night0721"
+        weight = 10
+
+    [[menu.social]]
+        name = "GitHub"
+        pre = "github"
+        url = "https://github.com/night0721"
+        weight = 20
+
+    [[menu.social]]
+        name = "YouTube"
+        pre = "youtube"
+        url = "https://youtube.com/@night0721"
+        weight = 30
+
+    [[menu.social]]
+        name = "RSS Feed"
+        pre = "rss"
+        url = "/index.xml"
+        weight = 40

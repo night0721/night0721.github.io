@@ -1,0 +1,12 @@
+<div class="posts-container">
+    <div class="posts">
+        {{- range.Data.Pages -}}
+        <div class="post">
+            <h4 class="post-heading">
+                <a href="{{ .RelPermalink }}" class="post-title">{{ .Title }}</a>
+            </h4>
+            <a class="post-time">{{ .Date.Format "January 2, 2006" }}</a>
+        </div>
+        {{ end }}
+    </div>
+</div>

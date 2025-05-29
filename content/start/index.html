@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title> ~ </title>
+		<style>
+		:root {
+			--font: "monospace";
+			--font-family: "monospace";
+			--background: #11111b;
+			--foreground: #cdd6f4;
+			--lavender: #b4befe;
+			--pink: #f5c2e7;
+			--blue: #89b4fa;
+			--branch: 1px solid #cdd6f4;
+		}
+
+		html {
+			font-size: 20px;
+		}
+
+		body {
+			background: var(--background);
+		}
+
+		.container {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+
+		.prompt {
+			font-family: var(--font);
+			color: var(--foreground);
+		}
+
+		.prompt~.prompt {
+			padding: 1.5rem 0 0.3125rem;
+		}
+
+		span {
+			color: var(--lavender);
+		}
+
+		h1 {
+			display: inline;
+			font-family: var(--font);
+			font-size: 1rem;
+			font-weight: normal;
+			color: var(--pink);
+		}
+
+		.tree > ul {
+			margin: 0;
+			padding-left: 1rem;
+		}
+
+		ul {
+			list-style: none;
+			padding-left: 2.5rem;
+		}
+
+		li {
+			position: relative;
+		}
+
+		li::before, li::after {
+			content: "";
+			position: absolute;
+			left: -0.75rem;
+		}
+
+		li::before {
+			border-top: var(--branch);
+			top: 0.75rem;
+			width: 0.5rem;
+		}
+
+		li::after {
+			border-left: var(--branch);
+			height: 100%;
+			top: 0.25rem;
+		}
+
+		li:last-child::after {
+			height: 0.5rem;
+		}
+
+		a {
+			font-family: var(--font);
+			font-size: 1rem;
+			color: var(--foreground);
+			text-decoration: none;
+			outline: none;
+		}
+
+		a:hover {
+			color: var(--background);
+			background: var(--blue);
+		}
+
+		form h1 {
+			padding-left: 0.125rem;
+		}
+
+		input {
+			font-family: var(--font);
+			font-size: 1rem;
+			color: var(--foreground);
+			background-color: var(--background);
+			border: none;
+			outline: none;
+		}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="prompt"><span>night</span>@<span>n10</span> ~ tree</div>
+			<div class="tree">
+				<h1>.</h1>
+				<ul>
+					<li>
+						<h1>/usr/</h1>
+						<ul>
+							<li>
+								<h1>/docs/</h1>
+								<ul>
+									<li><a href="https://wiki.gentoo.org/">gentoo</a></li>
+									<li><a href="https://wiki.archlinux.org/">arch</a></li>
+									<li><a href="https://man7.org/linux/man-pages/index.html">man</a></li>
+								</ul>
+							</li>
+							<li><a href="https://youtube.com/">youtube</a></li>
+						</ul>
+					</li>
+					<li>
+						<h1>/dev/</h1>
+						<ul>
+							<li><a href="https://git.sr.ht/~night0721">sr.ht</a></li>
+							<li><a href="https://github.com/night0721">github</a></li>
+							<li><a href="https://codeberg.org/night0721">codeberg</a></li>
+						</ul>
+					</li>
+					<li>
+						<h1>/etc/</h1>
+						<ul>
+							<li><a href="https://singlelogin.se/">zlib</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<div class="prompt"><span>night</span>@<span>n10</span> ~ search</div>
+			<form action="https://priv.au/search" method="GET">
+				<h1>search: </h1>
+				<input type="text" name="q" autofocus="autofocus">
+			</form>
+		</div>
+	</body>
+</html>

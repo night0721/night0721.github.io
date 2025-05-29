@@ -1,0 +1,97 @@
+[
+    {
+        "name":"NYX",
+        "description":"The first CODM statistics, builds and gunsmith bot for Discord users, partnered with YouTubers for accurate data",
+        "url":"https://github.com/night0721/cath.exe"
+    },
+    {
+        "name":"Lilase",
+        "description":"Minecraft Quality of Life mod for auction sniping and fliping, with more than 2500 downloads",
+        "url":"https://github.com/night0721/Lilase"
+    },
+    {
+        "name": "ccc",
+        "description": "Fast, small, hackable TUI file manager with no dependency",
+        "url": "https://github.com/night0721/ccc"
+    },
+	{
+		"name": "vip",
+		"description": "Small, fast and featureful vim-insipired text editor with strictly no dependency",
+        "url": "https://github.com/night0721/vuo"
+	},
+	{
+        "name": "90s",
+        "description": "Minimalist, customizable shell written in C99 with syntax highlighting and no dependency",
+        "url": "https://github.com/night0721/90s"
+    },
+	{
+        "name": "apm",
+        "description": "Small pass(1) implementation",
+        "url": "https://github.com/night0721/apm"
+    },
+	{
+        "name": "lcc",
+        "description": "Lines of Code Counter",
+        "url": "https://github.com/night0721/lcc"
+    },
+    {
+        "name": "log",
+        "description": "Minimalist command line note manager",
+        "url": "https://github.com/night0721/log"
+    },
+	{
+		"name": "ssm",
+		"description": "Simple Schedule Manager",
+		"url": "https://github.com/night0721/ssm"
+	},
+	{
+		"name": "bit",
+		"description": "Blockchain Version Control System",
+		"url": "https://github.com/night0721/bit"
+	},
+	{
+		"name": "jay",
+		"description": "Single header JSON library in C99",
+		"url": "https://github.com/night0721/jay"
+	},
+	{
+		"name": "neo",
+		"description": "Neo fuzzy finder",
+		"url": "https://github.com/night0721/neo"
+	},
+	{
+		"name": "radish",
+		"description": "Radish Programming Language",
+		"url": "https://github.com/night0721/radish"
+	},
+	{
+		"name": "sfb",
+		"description": "Suckless File Bin",
+		"url": "https://github.com/night0721/sfb"
+	},
+    {
+        "name":"Auth Bot",
+        "description":"Discord Bot to verify user, allowing server owner to recover server by pulling back members",
+        "url":"https://github.com/night0721/auth-bot"
+    },
+    {
+        "name":"NXC File Host",
+        "description":"ShareX server using Next.js API, to shorten URLs, upload image, paste codes, with a simple and easy to use UI",
+        "url":"https://github.com/night0721/nxc-host"
+    },
+    {
+        "name":"NYX API",
+        "description":"API using Next.js API Routes to serve purposes of NYX, cath npm package and discord rich presence data",
+        "url":"https://api.night0721.me"
+    },
+    {
+        "name":"cath",
+        "description":"npm pacakge to get data from NYX API, providing useful functions and Discord  utilities with more than 6000 downloads",
+        "url":"https://github.com/night0721/cath"
+    },
+    {
+        "name":"NullValkyrie",
+        "description":"Minecraft 1.19 multipurpose plugin for spigot servers with a lot of features where most modern servers have",
+        "url":"https://github.com/night0721/NullValkyrie"
+    }
+]

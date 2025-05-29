@@ -1,0 +1,18 @@
+{{ $path := .RelPermalink }}
+
+{{ if not (or (strings.HasPrefix $path "/discord") (eq $path "/start/")) }}
+
+  {{ partial "header.html" . }}
+
+  {{ partial "single-header.html" . }}
+
+  {{ .Content }}
+
+  {{ partial "footer.html" . }}
+
+{{ else }}
+
+  {{ .Content }}
+
+{{ end }}
+
