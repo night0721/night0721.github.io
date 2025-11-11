@@ -1,4 +1,4 @@
 ---
-title: "Hi, I'm Night"
-description: "Software developer from Hong Kong"
+title: "Hi, I'm Oscar"
+description: "Aspiring Software/Backend developer based in UK"
 ---

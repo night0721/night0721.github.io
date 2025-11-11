@@ -56,8 +56,14 @@ ignoreErrors = ["error-remote-getjson"]
         url = "https://youtube.com/@night0721"
         weight = 30
 
+	[[menu.social]]
+		name = "LinkedIn"
+		pre = "linkedin"
+		url = "https://www.linkedin.com/in/night0721/"
+		weight = 40
+
     [[menu.social]]
         name = "RSS Feed"
         pre = "rss"
         url = "/index.xml"
-        weight = 40
+        weight = 50
